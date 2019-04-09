@@ -1,0 +1,148 @@
+.btn-primary {
+  background: #f46b45;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eea849, #f46b45);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.uploadThumb {
+  background: #aba79e;
+}
+
+.uploadThumb img {
+  margin-top: 15px;
+}
+
+.mt-xs-2 {
+  margin-top: 20px;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.image-upload img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.gap {
+  height: 30px;
+  display: block
+}
+
+.image-panel > img {
+  border-width: 2px;
+  border-style: solid;
+  background-image: none;
+}
+
+.selected > img {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eea849), to(#f46b45));
+  background-image: -webkit-linear-gradient(#eea849, #f46b45);
+  background-image: -moz-linear-gradient(#eea849, #f46b45);
+  background-image: -o-linear-gradient(#eea849, #f46b45);
+}
+
+.image-panel > .wrapper {
+  position: absolute;
+  top: 0px;
+  /* right:0px ; */
+  background: dodgerblue;
+  height: 30px;
+  width: 30px;
+  z-index: 4;
+  float: right;
+  background: #f46b45;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eea849, #f46b45);
+  display: none;
+}
+
+.image-panel > p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.image-panel > p > i {
+  margin-right: 5px;
+}
+
+.wraperNumber {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.selected > .wrapper {
+  display: inherit;
+}
+
+a.edit-image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translateX(-100%);
+  margin: 10px;
+}
+
+
+.borderDisable {
+  border-width: 0px;
+}
+
+.uploadImage {
+  border-width: 1.75px;
+}
+
+.file-drop-zone {
+  height: inherit;
+}
+
+#uploadContainer>div:nth-child(4n+1) {
+  clear: both;
+}
+
+@media only screen and (max-width:575.9px) {
+  .fetchBox {
+    margin-top: 20px;
+  }
+
+  .mt-xs-2 {
+    margin-top: 20px;
+  }
+
+  .gap {
+    height: 15px;
+    display: block
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 0px;
+    /* right: ; */
+    background: dodgerblue;
+    height: 15px;
+    width: 15px;
+    z-index: 4;
+    float: right;
+    background: #f46b45;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #eea849, #f46b45);
+  }
+
+  .wraperNumber {
+    color: white;
+    text-align: center;
+    font-size: 8px;
+
+  }
+
+}
